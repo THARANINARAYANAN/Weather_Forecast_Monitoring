@@ -31,7 +31,7 @@ st.markdown(
     """
     <style>
     body {
-        background-color: #1E90FF; /* Blue background */
+        background-color: #87CEEB; /* Blue background */
     }
     .reportview-container {
         background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for content */
