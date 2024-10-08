@@ -42,7 +42,7 @@ st.markdown(
         padding: 20px; /* Optional: padding around content */
     }
     .stButton>button {
-        background-color: #ADD8E6; /* Light blue button */
+        background-color: #02D8E9; /* Light blue button */
         color: #FFFFFF; /* White text for button */
         border: none;
         border-radius: 5px;
