@@ -26,12 +26,17 @@ def get_weather(city):
 st.title("Weather Forecast App")
 st.write("Enter a city name to get the current weather information:")
 
-# Add custom CSS for background color
+# Add custom CSS for full page background color
 st.markdown(
     """
     <style>
-    .reportview-container {
+    body {
         background-color: #1E90FF; /* Blue background */
+    }
+    .reportview-container {
+        background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for content */
+        border-radius: 10px; /* Optional: rounding corners */
+        padding: 20px; /* Optional: padding around content */
     }
     .stButton>button {
         background-color: #ffffff; /* White button */
