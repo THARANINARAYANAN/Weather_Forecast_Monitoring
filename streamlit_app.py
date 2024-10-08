@@ -26,29 +26,24 @@ def get_weather(city):
 st.title("Weather Forecast Monitoring")
 st.write("From Sun to Snow, We’ve Got the Weather Flow!")
 
-# Add custom CSS for full page background image
+# Alternative method for adding a full page background image
 st.markdown(
-    """
+    f"""
     <style>
-    body {
-        background-image: url('https://i.pinimg.com/control/564x/4d/2c/73/4d2c73d8d33f2a7b4fa9ae44668e66e9.jpg'); /* Replace with your image URL */
+    .stApp {{
+        background: url("https://your-image-url-here");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-    }
-    .reportview-container {
-        background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for content */
-        border-radius: 10px; /* Optional: rounding corners */
-        padding: 20px; /* Optional: padding around content */
-    }
-    .stButton>button {
-        background-color: #003400; /* Light blue button */
+    }}
+    .stButton>button {{
+        background-color: #ADD8E6; /* Light blue button */
         color: #FFFFFF; /* White text for button */
         border: none;
         border-radius: 5px;
         padding: 10px;
         font-size: 16px;
-    }
+    }}
     </style>
     """,
     unsafe_allow_html=True
