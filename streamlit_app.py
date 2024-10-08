@@ -23,8 +23,8 @@ def get_weather(city):
         return {"Error": f"Failed to retrieve data: {response.status_code}"}
 
 # Streamlit app layout
-st.title("Weather Forecast App")
-st.write("Enter a city name to get the current weather information:")
+st.title("Weather Forecast Monitoring")
+st.write("From Sun to Snow, We’ve Got the Weather Flow!")
 
 # Add custom CSS for full page background color
 st.markdown(
