@@ -26,6 +26,26 @@ def get_weather(city):
 st.title("Weather Forecast App")
 st.write("Enter a city name to get the current weather information:")
 
+# Add custom CSS for background color
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background-color: #1E90FF; /* Blue background */
+    }
+    .stButton>button {
+        background-color: #ffffff; /* White button */
+        color: #1E90FF; /* Blue text for button */
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # User input for city
 city = st.text_input("City Name")
 
