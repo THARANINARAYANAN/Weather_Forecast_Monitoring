@@ -31,7 +31,7 @@ st.markdown(
     f"""
     <style>
     .stApp {{
-        background: url("https://videos.pexels.com/video-files/855936/855936-hd_1920_1080_30fps.mp4") center center no-repeat;
+        background: url("https://i.pinimg.com/564x/36/9a/f1/369af19a0d93532f110ac1a78809802e.jpg") center center no-repeat;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
