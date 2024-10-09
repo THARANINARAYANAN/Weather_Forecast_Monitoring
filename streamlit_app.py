@@ -31,7 +31,7 @@ st.markdown(
     f"""
     <style>
     .stApp {{
-        background: url("https://i.pinimg.com/originals/2c/5c/e3/2c5ce3685b849230f1f843d868f74271.gif") center center no-repeat;
+        background: url("https://i.pinimg.com/originals/03/4e/91/034e91e5c337aa3cb8fb6c1bc89387f9.gif") center center no-repeat;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
